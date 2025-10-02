@@ -15,12 +15,12 @@ int Calculator::Mul (double a, double b)
     return a * b + 0.5;
 }
 
-int Calculator::Mul (double a, double b)
+int Calculator::Mod (double a, double b)
 {
-    return a * b + 0.5;
+	return a % b;
 }
 
-int Calculator::Mul (double a, double b)
+int Calculator::Div (double a, int b)
 {
-    return a * b + 0.5;
+	return a / b + 0.5;
 }
